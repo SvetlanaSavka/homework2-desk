@@ -1,0 +1,215 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #2f303a;
+  --first-text-color: #ffffff;
+  --second-text-color: #212121;
+  --third-text-color: #757575;
+  --fourth-text-color: #212121;
+  --six-text-color: rgba(255, 255, 255, 0.6);
+  --first-button-color: #ffffff;
+  --second-button-color: #2196f3;
+  --first-header-text-color: #2196f3;
+  --second-header-text-color: #212121;
+  --accent-color: ;
+}
+/* Доминантный на макете шрифт */
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--main-title-color);
+  color: var(--fourth-text-color);
+  letter-spacing: -0.03em;
+}
+/* Снятие точек со списка */
+.list {
+  list-style: none;
+}
+/* Снятие подчеркивания со списка */
+.link {
+  text-decoration: none;
+}
+
+/* -----LOGO----- */
+
+.logo {
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-header-text-color);
+}
+.logo-two {
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.logo-three {
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--fourth-text-color);
+}
+.header-item :hover,
+.header-item :focus {
+  color: var(--first-header-text-color);
+}
+
+.header-mailto {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--fourth-text-color);
+}
+.header-mailto:hover,
+.header-mailto:focus {
+  color: var(--first-header-text-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--fourth-text-color);
+}
+.header-tel :hover,
+.header-tel :focus {
+  color: var(--first-header-text-color);
+}
+
+/* Hero */
+
+.hero-right {
+  background-color: var(--second-title-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--first-text-color);
+}
+
+.hero-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--first-text-color);
+  cursor: pointer;
+}
+.hero-btn:active {
+  background-color: var(--second-button-color);
+}
+
+/* -------О нас----- */
+
+.about-pre-text {
+  ont-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.about-after-text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+/*------ Наша команда---- */
+.about-our-comand {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.about-our-comand-people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.about-our-comand-profession {
+  ont-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+
+/* -----FOOTER---- */
+
+/* -----ADDRESS---- */
+
+.address {
+  background-color: var(--second-title-color);
+}
+
+.address-header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17.1;
+  letter-spacing: 0.03em;
+
+  color: var(--first-text-color);
+}
+.address-header-mailto {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 17.1;
+  letter-spacing: 0.03em;
+  color: var(--six-text-color);
+}
+
+.address-header-tel {
+  font-size: 14px;
+  line-height: 17.1;
+  letter-spacing: 0.03em;
+  color: var(--six-text-color);
+}
+
+/* ------ PORTFOLIO --------*/
+
+.about-our-project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+
+.about-project {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
