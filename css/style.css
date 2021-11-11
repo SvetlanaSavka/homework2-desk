@@ -16,7 +16,7 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--main-title-color);
-  color: var(--fourth-text-color);
+  color:var(--fourth-text-color);
   letter-spacing: -0.03em;
 }
 /* Снятие точек со списка */
@@ -57,19 +57,23 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--fourth-text-color);
 }
+.header-link {
+  color: var(--second-text-color);
+}
+
+
 .header-item :hover,
 .header-item :focus {
   color: var(--first-header-text-color);
 }
 
-.header-mailto {
+.header-mailto{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--fourth-text-color);
+  color: var(--third-text-color);
 }
 .header-mailto:hover,
 .header-mailto:focus {
@@ -81,7 +85,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--fourth-text-color);
+  color:var(--third-text-color);
 }
 .header-tel :hover,
 .header-tel :focus {
@@ -103,6 +107,7 @@ body {
   text-transform: uppercase;
   color: var(--first-text-color);
 }
+
 
 .hero-btn {
   font-weight: bold;
@@ -178,7 +183,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 17.1;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--first-text-color);
@@ -186,19 +191,32 @@ body {
 .address-header-mailto {
   font-family: Roboto;
   font-size: 14px;
-  line-height: 17.1;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--six-text-color);
 }
 
 .address-header-tel {
   font-size: 14px;
-  line-height: 17.1;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--six-text-color);
 }
 
 /* ------ PORTFOLIO --------*/
+
+.button-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+  cursor: pointer;
+}
+.button-nav-one:active {
+  background-color: var(--second-button-color);
 
 .about-our-project {
   font-size: 18px;
